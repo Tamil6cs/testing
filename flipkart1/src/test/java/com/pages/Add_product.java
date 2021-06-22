@@ -52,9 +52,9 @@ public class Add_product {
 				driver.findElement(cont).click();
 				Thread.sleep(3000);
 				driver.switchTo().window(actual);
-				By pay=By.xpath("//*[@id='container']/div/div[2]/div/div[1]/div[4]/div/div/div[1]/div/label[6]/div[1]");
-				driver.findElement(pay).click();
-				Thread.sleep(3000);
+				//By pay=By.xpath("//*[@id='container']/div/div[2]/div/div[1]/div[4]/div/div/div[1]/div/label[6]/div[1]");
+				//driver.findElement(pay).click();
+				//Thread.sleep(3000);
 				
 			}
 		}}
