@@ -25,8 +25,8 @@ public class Loginpage {
 
 
 	}
-//	public void mobnum(String strmobnum){
-//		driver.findElement(mob_num).sendKeys(strmobnum);
+	public void mobnum(String strmobnum){
+		driver.findElement(mob_num).sendKeys(strmobnum);
 //	}
 //	public void setPassword(String strPassword){
 //		driver.findElement(password).sendKeys(strPassword);
